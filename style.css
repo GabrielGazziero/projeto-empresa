@@ -1,0 +1,35 @@
+body{
+    font-family:arial,sans-serife;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(188, 229, 255);
+    color: black;
+}
+header{
+    display :flex;
+    align-items:center;
+    background-color: black;
+    padding: 20px;
+    color:rgb(188, 229, 255);
+}
+header img{
+    widht:80px;
+    height: auto;
+    miargin right:20px;
+}
+
+header h1{
+    font-size:2em;
+    margin: 0;
+    flex-grow:1;
+}
+
+header p{
+    margin: 0 px;
+    cursor: pointer;
+    color:white;
+}
+header p:hover{
+    text-decoration: underline;
+}
